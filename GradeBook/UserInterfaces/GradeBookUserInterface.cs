@@ -186,5 +186,15 @@ namespace GradeBook.UserInterfaces
             Console.WriteLine();
             Console.WriteLine("Save - Saves the gradebook to the hard drive for later use.");
         }
+
+        internal static void CommandLoop(object gradeBook)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static void CommandLoop()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
