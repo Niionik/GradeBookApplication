@@ -185,7 +185,11 @@ namespace GradeBook.UserInterfaces
             Console.WriteLine("Close - Closes the gradebook and takes you back to the starting command options.");
             Console.WriteLine();
             Console.WriteLine("Save - Saves the gradebook to the hard drive for later use.");
+            Console.WriteLine();
+            Console.WriteLine("Create 'Name' 'Type' 'Weighted' - Creates a new gradebook where 'Name' is the name of the gradebook, 'Type' is what type of grading it should use, and 'Weighted' is whether or not grades should be weighted (true or false).");
         }
+
+
 
         internal static void CommandLoop(object gradeBook)
         {
